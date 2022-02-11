@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.4;
     color:white;
     background-color: #333333;
 }
@@ -19,7 +18,8 @@ b {
 h1 {
     font-size: 36px;
     font-weight: 700;
-    margin: 20px 0 0 0;
+    margin: 20px 0 10px 0;
+    line-height: 1.4;
 }
 
 h2 {
@@ -33,20 +33,25 @@ h3 {
     font-size: 18px;
     max-width: 400px;
     font-weight: 700;
-    margin: 40px 0 10px 0;
+    margin: 20px 0 10px 0;
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     max-width: 200px;
     margin-bottom: 10px;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 p {
     margin: 0 0 8 0;
     font-size: 18px;
+    line-height: 1.2;
+}
+
+.subtitle {
+    margin-bottom: 20px;
 }
 
 img {
@@ -141,6 +146,10 @@ a:hover {
 
     h4 {
         max-width: 550px;
-        
+    }
+
+    h1 {
+        line-height: 1;
+        margin: 20px 0 10px 0;
     }
 }
